@@ -2,7 +2,7 @@ const { GenerateSW } = require('workbox-webpack-plugin');
 
 module.exports = {
   publicPath: process.env.PUBLIC_PATH,
-  outputDir: `dist-${process.env.MODE}`,
+  outputDir: `dist`,
   configureWebpack: {
     plugins: [
       // Other plugins...
